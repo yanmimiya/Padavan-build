@@ -41,7 +41,7 @@ jobs:
         wget https://github.com/hanwckf/rt-n56u/raw/master/trunk/user/htop/htop-3.0.2.tar.gz
     - name: Build Firmware
       env:
-        TNAME: K2P-5.0
+        TNAME: 360P2
       run: |
         cd /opt/rt-n56u/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
