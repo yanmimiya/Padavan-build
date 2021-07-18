@@ -36,6 +36,7 @@ jobs:
         cd /opt/rt-n56u/toolchain-mipsel
         sh dl_toolchain.sh
         mkdir -p /opt/images/
+        mkdir -p /opt/rt-n56u/trunk/user/htop/
         cd /opt/rt-n56u/trunk/user/htop
         wget https://github.com/hanwckf/rt-n56u/raw/master/trunk/user/htop/htop-3.0.2.tar.gz
     - name: Build Firmware
